@@ -26,6 +26,7 @@ function App() {
         <Route path='/form' element={<Form/>}/>
         <Route path='/steps' element={<Steps/>}/>
         <Route path='/*' element={<PageNotFound/>}/>
+        <Route path='/preview' element={<Preview/>}/>
          <Route path='/view/:id/resume' element={<ViewResume/>}/>
          
       </Routes>
